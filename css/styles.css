@@ -1,0 +1,212 @@
+/******************************************TAG SELECTORS****************************************/
+
+body{
+  margin: 0;
+  color: #b2ebf2;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color:  #00a8cc;
+  /*animation part*/
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  /*end of animation in body*/
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.25rem;
+  color: #f8e1f4;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #efa8e4;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #f8e1f4;
+}
+p{
+  line-height: 2; /*for more spacing betweewn the line as usual*/
+}
+a{
+  color: #11999E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #c2f0fc;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+a{
+  color: #efa8e4;
+}
+
+/******************************************CLASS SELECTORS****************************************/
+
+.top{
+  /*background-color: #d8345f;*/
+  background-image: url("https://wallpapertag.com/wallpaper/full/a/1/b/652188-download-free-birthday-background-images-1920x1080-phone.jpg");
+  position:relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.middle
+{
+  margin: 50px auto 50px auto;
+}
+.bottom
+{
+  margin: 50px auto 0px auto;
+  padding: 30px;
+  background-color: #084177;
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 15%;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 15%;
+  bottom: 300px;
+}
+.profile-img{
+  border-radius: 100%;
+}
+.skillc-image{
+  height: 200px;
+  width:200px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+.skillg-image{
+  height: 200px;
+  width:200px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+.icon-image{
+  margin: 20px;
+}
+.icon-image:hover{
+  background-color: grey;
+}
+.font-weight{
+  font-weight: normal;
+}
+.skill-row{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.profile-img{
+  margin: 30px;
+}
+.profile{
+  margin: 50px auto 25px auto;
+}
+.intro{
+  width:50%;
+  margin: 10px auto 10px; /*top and bottom is 10px left n right is setb to auto n therefore it gets centered*/
+}
+.cont-para{
+  width:40%;
+  margin: 10px auto 40px;
+}
+.copy-right{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 20px 0;
+}
+/*.skills{
+  margin: 25px auto 25px auto;
+  padding: 50px;
+}*/
+
+.Ayushi{
+  margin-top: 10px;
+}
+.bday-gif{
+  border-radius: 10%;
+  width: 50%;
+  margin-top: 50px;
+}
+.container {
+  position: relative;
+  width: 70%;
+  padding: 30px;
+  margin: 10px auto 10px auto;
+}
+
+.card-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.mid {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .card-image {
+  opacity: 0.3;
+}
+
+.container:hover .mid {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.weed{
+  width: 30%;
+  border-radius: 100%;
+}
+.weed:hover{
+  opacity: 80%;
+}
+.skillc-image:hover{
+  height: 300px;
+  width:300px;
+}
+.skillg-image:hover{
+  height: 300px;
+  width:300px;
+}
+.last-image{
+  padding: 20px;
+}
+.last-imagea{
+  padding: 20px;
+  width: 75%;
+}
+/*animation*/
+@keyframes example {
+  from{background-color: #00a8cc;}
+  to{background-color: #4d4c7d;}
+}
